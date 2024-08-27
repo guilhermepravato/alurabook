@@ -6,7 +6,7 @@
     position: relative;
   }
   
-}
+
 .container {
     display: flex;
     align-items: center;
@@ -20,10 +20,21 @@
     padding: 1em;
 }
 
-  .lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-  }
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
   
-    
+
+  .lista-menu__titulo {
+    color: var(--laranja);
+  }
+  .lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+  }
